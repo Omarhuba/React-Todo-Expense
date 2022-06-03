@@ -15,6 +15,7 @@ export const Expenses = (props) => {
             <ExpensesItem title={props.items[1].title} amount={props.items[1].amount} pris={props.items[1].pris} date={props.items[1].date}/>
             <ExpensesItem title={props.items[2].title} amount={props.items[2].amount} pris={props.items[2].pris} date={props.items[2].date}/>
             <ExpensesItem title={props.items[3].title} amount={props.items[3].amount} pris={props.items[3].pris} date={props.items[3].date}/>
+            <ExpensesItem title={props.items[4].title} amount={props.items[4].amount} pris={props.items[4].pris} date={props.items[4].date}/>
         </Card>
       </div>
   )

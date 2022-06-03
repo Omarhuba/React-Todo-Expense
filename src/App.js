@@ -8,7 +8,8 @@ function App() {
     {title: 'Köp Toalet papper', amount: '100',  date: new Date(2022, 5, 23)},
     {title: 'Köp Mjölk', amount: '30', date: new Date(2022, 5, 23)},
     {title: 'Köp Pankaka', amount: '60',  date: new Date(2022, 5, 23)},
-    {title: 'Köp Cykel', amount: '1500', date: new Date(2022, 5, 23)}
+    {title: 'Köp Cykel', amount: '1500', date: new Date(2022, 5, 23)},
+    {title: 'Köp TV', amount: '5500', date: new Date(2022, 6, 23)}
   ]
 
   const addExpensesHandler = (expense)=>{
