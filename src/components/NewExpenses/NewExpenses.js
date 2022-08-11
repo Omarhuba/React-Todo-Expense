@@ -1,15 +1,15 @@
 import React from "react"
-import './NewExpenses.css'
-import { ExpensesForm } from "./ExpensesForm"
+import '../Styles/NewExpenses.css'
+import  ExpensesForm  from "./ExpensesForm"
 
 
-export const NewExpenses = (props) =>{
+export const NewExpenses = ({onAddExpenses}) =>{
     const saveExpenseDataHandler = (enteredExpenseData) => {
         const expenseData = {
             ...enteredExpenseData,
             id: Math.floor(Math.random()*100).toString()
         }
-        props.onAddExpenses(expenseData)
+        onAddExpenses(expenseData)
         // console.log(expenseData);
     }
 
